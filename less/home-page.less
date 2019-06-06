@@ -6,8 +6,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
+
+
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -54,8 +54,24 @@
     justify-content: space-between;
 
     .destination {
+      .destination-flex();
       width: 30%;
       margin-bottom: 30px;
     }
   }
 }// home
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+  border-bottom: grey dashed 2px;
+
+  img {
+    margin-bottom: 2rem;
+  }
+}
+
+.btn {
+  .button-style(center, center);
+}

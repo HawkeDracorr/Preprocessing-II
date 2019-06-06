@@ -168,6 +168,22 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  padding-left: 3rem;
+  border-bottom: grey dashed 2px;
+}
+.navbar a {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 1.75rem;
+  padding: 1.75rem;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
@@ -222,6 +238,29 @@ img {
   justify-content: space-between;
 }
 .home .content-pick .destination {
+  display: flex;
+  flex-direction: column;
   width: 30%;
   margin-bottom: 30px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+  border-bottom: grey dashed 2px;
+}
+header img {
+  margin-bottom: 2rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: teal;
+  color: #FFFFFF;
+  border-radius: 1rem;
+  padding-top: 1.25rem;
+  margin-right: 4rem;
+  padding-bottom: 1.25rem;
+  font-size: 2rem;
 }
