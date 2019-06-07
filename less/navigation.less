@@ -1,1 +1,49 @@
 // Navigation Styles here
+.navbar {
+  width: 100%;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  padding-left: 3rem;
+  border-bottom: grey dashed 2px;
+
+  @media @mobile {
+    padding-bottom: 1rem;
+  }
+
+
+  .navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+    max-width: 800px;
+
+    @media @mobile {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      align-items: center;
+
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+        
+        a {
+          padding-bottom: .5rem;
+        }
+    }
+  }
+
+  .nav-items {
+    // margin-left:
+  }
+
+
+  a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 1.75rem;
+    padding: 1.75rem;
+  }
+}

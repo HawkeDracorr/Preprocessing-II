@@ -1,1 +1,32 @@
 // Mixins in here
+.button-style(@justify, @align) {
+  // outline: red solid 1px;
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+  background: teal;
+  color: @white;
+  border-radius: 1rem;
+  padding-top: 1.25rem;
+  margin-right: 4rem;
+  padding-bottom: 1.25rem;
+  font-size: 2rem;
+
+  @media @mobile {
+    margin: auto;
+    // padding: 1rem 36% 1rem 36%;
+    width: 100%;
+    // outline: red solid 2px;
+  }
+}
+
+.destination-flex() {
+  display: flex;
+  flex-direction: column;
+
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+}
